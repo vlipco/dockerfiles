@@ -19,4 +19,4 @@ EXPOSE 4224
 # And here we decide to go with the default CMD this can be override too at
 # runtime
 
-CMD ["/gopath/bin/gnatsd"]
+ENTRYPOINT ["/gopath/bin/gnatsd"]
